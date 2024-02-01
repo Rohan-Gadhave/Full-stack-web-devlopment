@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Day-2</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sequi recusandae aliquam repellendus. Voluptatum unde nulla inventore eaque libero sapiente tempora officiis quod repellendus, doloribus aspernatur eos est distinctio laudantium!
+       </p>
+       <hr>
+       <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deserunt totam sunt enim? Sapiente necessitatibus magni architecto? Expedita, vitae? Inventore provident, minima autem soluta est iste fugiat officia velit dolorum.
+       </p>
+       <br>
+       <h1>this is H1</h1>
+       <br>
+       <h2>This is H2</h2>
+       <br>
+       <h3>This is H3</h3>
+       <br>
+       <h4>This is H4</h4>
+       <br>
+       <h5>This is H5</h5>
+       <br>
+       <h6>This is H6</h6>
+       <br>
+    </body>
+</html>
