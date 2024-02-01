@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+</head>
+<body>
+    <h1>This is H1 tag</h1>
+    <br>
+    <h2>This is H2 tag</h2>
+    <br>
+    <h3>This is H3 tag</h3>
+    <br>
+    <h4>This is H4 tag</h4>
+    <br>
+    <h5>This is H5 tag</h5>
+    <br>
+    <h6>This is H6 tag</h6>
+    <!-- <h7>This is H7 tag</h7> -->
+    <!-- <h8>Hey man i dont understand why it gets combine in h8 tag</h8> -->
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad molestiae 
+        eveniet, error debitis velit est commodi qui dignissimos quasi vitae laboriosam 
+        dicta aliquid, et sit nam explicabo atque maiores minus.</p>
+</body>
