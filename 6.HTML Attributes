@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+</head>
+<body>
+    <br>
+    <button>
+        <a href="https://google.com" style="color: red;">Google</a>
+    </button>
+    <br>
+    <img src="/Assets/download.jpg" alt="alt tag checked">
+    <br>
+    <br>
+    <p style="background-color: rgb(0, 0, 0); font-family: Georgia, 'Times New Roman', Times, serif; color: white; "> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi voluptate laborum corporis voluptas nam, <br> ipsam mollitia rem nesciunt harum est, sint doloremque eveniet inventore fugit ad quaerat atque assumenda!</p>
+    <br>
+    <span style="background-color: rgb(213, 216, 17); font-family: Georgia, 'Times New Roman', Times, serif;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quod consequatur libero voluptate sint dolorem <br> maiores, laudantium laborum aut voluptatibus nam veniam est, vero consequuntur? Aliquam quasi qui eos consequatur.</span>
+    <br>
+    <video controls width="300" height="300">
+        <source src="/Assets/Product Demo Video for Pipe - SaaS Product Demo Video.mp4">
+    </video>
+</body>
+</html>
