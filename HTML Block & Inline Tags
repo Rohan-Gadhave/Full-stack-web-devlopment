@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+</head>
+<body>
+    <div>
+        <h2>This is block element</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis error sapiente maiores ratione architecto voluptate quaerat rerum a at quibusdam totam tempora, nisi fugit quisquam porro obcaecati, excepturi repudiandae magnam?
+        </p>
+    </div>
+
+    <h2>This is inline Elements</h2>
+
+    <span style="background-color: yellow;">Rohan Gadhave</span>
+
+    <p>A block-level element always starts on a new line and takes up the full width available <br>
+        An inline element does not start on a new line and it only takes up as much width as necessary <br>
+        The <b>"div"</b> element is a block-level and is often used as a container for other HTML elements <br>
+        The <b>"span"</b> element is an inline container used to mark up a part of a text, or a part of a document</p>
+
+</body>
+</html>
