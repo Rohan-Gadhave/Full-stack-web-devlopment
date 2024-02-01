@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <table border="5">
+        <caption>This is India</caption>
+    <thead>
+        <tr>
+            <th style="background-color: blueviolet;">coloum 1</th>
+            <th style="background-color: blueviolet;">coloum 2</th>
+            <th style="background-color: blueviolet;">coloum 3</th>
+            <th style="background-color: blueviolet;">coloum 4</th>
+            <th style="background-color: blueviolet;">coloum 5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="background-color: orange">row 1,cell 1</td>
+            <td style="background-color: orange">row 1,cell 2</td>
+            <td style="background-color: orange">row 1,cell 3</td>
+            <td style="background-color: orange">row 1,cell 4</td>
+            <td style="background-color: orange">row 1,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 2,cell 1</td>
+            <td>row 2,cell 2</td>
+            <td>row 2,cell 3</td>
+            <td>row 2,cell 4</td>
+            <td>row 2,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 3,cell 1</td>
+            <td style="background-color: blue">row 3,cell 2</td>
+            <td style="background-color: blue">row 3,cell 3</td>
+            <td style="background-color: blue">row 3,cell 4</td>
+            <td>row 3,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td>row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td>row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+        <tr>
+            <td style="background-color: green">row 5,cell 1</td>
+            <td style="background-color: green">row 5,cell 2</td>
+            <td style="background-color: green">row 5,cell 3</td>
+            <td style="background-color: green">row 5,cell 4</td>
+            <td style="background-color: green">row 5,cell 5</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th style="background-color: blueviolet;">Jai Hind</th>
+            <th style="background-color: blueviolet;">Jai Hind</th>
+            <th style="background-color: blueviolet;">Jai Hind</th>
+            <th style="background-color: blueviolet;">Jai Hindv</th>
+            <th style="background-color: blueviolet;">Jai Hind</th>
+        </tr>
+    </tfoot>
+    </table>
+    <br>
+    <!--This is colspan (Space for coloum) & Rowspan (Space for Rows)
+   To manage the layout of the tables, two attributes are used, rowspan and colspan.
+Attribute rowspan is used to mention the number of rows that a particular cell will
+be occupying. Attribute colspan is used to mention the number of columns that a
+specific cell will be occupying.
+They both are used with the td tag and can also be used with the th tag.-->
+
+    <caption> colspan and rowspan Attribute</caption>
+    <table border="5">
+        <tr>
+        <th>coloum 1</th>
+        <th colspan="2">coloum 2</th>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td rowspan="2">row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td rowspan="2">row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td rowspan="2">row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td rowspan="2">row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td rowspan="2">row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td rowspan="2">row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td rowspan="2">row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td rowspan="2">row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+        <tr>
+            <td>row 4,cell 1</td>
+            <td rowspan="2">row 4,cell 2</td>
+            <td>row 4,cell 3</td>
+            <td rowspan="2">row 4,cell 4</td>
+            <td>row 4,cell 5</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
