@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Css Box Model</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+    
+    .A {
+        color: orange;
+        width: 300px;
+        border: 15px solid orange;
+        padding: 10px;
+        margin: 20px;
+    }
+    .B {
+        color: blue;
+        width: 300px;
+        border: 15px solid white;
+        padding: 10px;
+        margin: 20px;
+    }
+    .C {
+        color: green;
+        width: 300px;
+        border: 15px solid green;
+        padding: 10px;
+        margin: 20px;
+    }
+</style>
+<body>
+    <div class="A">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Hic commodi beatae repellendus quidem inventore enim blanditiis
+        a dolorem, voluptas natus sequi atque dolore deserunt, numquam 
+        id quibusdam ipsum accusamus amet.
+    </div>
+    <div class="B">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, nam dolorem? Fugit sed iste voluptatem vel, error, veniam incidunt explicabo eos quidem cum dolorem eius placeat quisquam sunt vero nesciunt?</p>
+    </div>
+    <div class="C">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illo dolores beatae quaerat fuga? Est libero temporibus dolor, quod officiis rerum voluptatem debitis voluptatibus obcaecati atque hic mollitia architecto non!
+    </div>
+</body>
+</html>
