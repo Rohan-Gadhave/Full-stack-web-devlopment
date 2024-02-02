@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Effects in CSS</title>
+</head>
+<style>
+    .break {
+        height: 190px;
+        width: 150px;
+        border: 2px solid red;
+        word-break: break-all;
+    }
+    .keep {
+        height: 210px;
+        width: 150px;
+        border: 2px solid red;
+        word-break: keep-all;
+    }
+    .wrap {
+        height: 150px;
+        width: 150px;
+        border: 2px solid red;
+        word-wrap: break-word;  
+    }
+    p {
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid red;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+<body>
+    <h1>Break All</h1>
+    <div class="break">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim incidunt iure ex, facilis est quas quis, dolores non sapiente asperiores doloribus inventore numquam id? Doloremque dolorem dolorum ducimus consectetur numquam.
+
+    </div>
+    <hr>
+    <h1>Keep All</h1>
+    <div class="keep">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim incidunt iure ex, facilis est quas quis, dolores non sapiente asperiores doloribus inventore numquam id? Doloremque dolorem dolorum ducimus consectetur numquam.
+
+    </div>
+    <hr>
+    <h1>Word Wrap</h1>
+    <div class="wrap">
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+
+industry. Lorem Ipsum has been the industry's standard dummy text ever 
+
+since the 1500s.
+    </div>
+    <hr>
+    <h2>Text Overflow</h2>
+    <p> Hey This is Full stack devloper Form future</p>
+    <hr>
+    <h2>writing modes</h2>
+    <br>
+    <h1 style="writing-mode: vertical-rl;">DEVLOPER</h1><br><h1 style="writing-mode: horizontal-lr;">DEVLOPER</h1>
+</body>
+</html>
