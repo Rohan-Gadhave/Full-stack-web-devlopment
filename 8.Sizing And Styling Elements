@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing And Styling Elements</title>
+</head>
+<style>
+    .Pixel {
+        background-color: orange;
+        width: 150px;
+        height: 150px;
+    }
+    #parent {
+        background-color: black;
+        width: 150px;
+        height: 150px;
+    }
+    #child {
+        background-color: green;
+        height: 70%;
+        width: 70%;
+    }
+    .Ex {
+        background-color: red;
+        min-height: 100px;
+        width: 200px;
+    }
+
+</style>
+<body>
+    <h2>This is Pixel Example</h2>
+    <div class="Pixel">
+        Welcome to Full Stack Web Devlopment!
+    </div>
+    <hr>
+    <h2>This is Percentage Example</h2>
+    <div id="parent">
+        <div id="child">
+            Welcome to Full Stack Web Devlopment!
+        </div>
+    </div>
+    <hr>
+    <H2>This is Rem Example</H2>
+    <div>
+        <p> Welcome to Full Stack Web Devlopment!</p>
+        <p style="font-size: 2rem;">This Text With 2 rem</p>
+    </div>
+    <hr>
+    <h2>This is MIN & MAX Example</h2>
+    <div class="Ex">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus magnam incidunt perferendis autem excepturi. Autem, dolore aperiam. Et sapiente rem architecto sequi ipsum libero doloremque at dolore. Aperiam, vero voluptates.
+    </div>
+    <hr>
+</body>
+</html>
