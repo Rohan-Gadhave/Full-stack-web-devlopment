@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css practise</title>
+</head>
+<body>
+    <style>
+            h1 {
+        color: orange;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        color: green;
+    }
+
+    p {
+        color: blue;
+        font-family: fantasy;
+    }
+    </style>
+    <h1>Welcome back to the session </h1>
+    <h2>Today we learn about Css</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora beatae distinctio sint ipsam reiciendis enim magnam repellat fuga commodi aliquid, cupiditate velit mollitia ad odio repellendus quidem dolorum facilis explicabo.</p>
+</body>
+</html>
